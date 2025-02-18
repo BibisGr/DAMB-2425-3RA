@@ -62,7 +62,22 @@
     </nav>
 
     <div class="container m-3 mx-auto border">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro fuga sint, ex commodi fugiat adipisci quod quas inventore placeat beatae, culpa, architecto voluptate. Ducimus accusamus eos minima dolorem a harum?</p>
+        <div class="container mt-3">
+            <div class="d-flex justify-content-end">
+                <button class="btn btn-secondary" id="themeToggle">Cambiar Tema</button>
+            </div>
+        </div>
+    
+        <!-- 1. Sistema de Grid -->
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4 bg-primary text-white p-3">Columna 1</div>
+                <div class="col-md-4 bg-secondary text-white p-3">Columna 2</div>
+                <div class="col-md-4 bg-success text-white p-3">Columna 3</div>
+            </div>
+        </div>
+
+
     </div>
 
     <div class="container">
@@ -86,6 +101,16 @@
             </ul>
         </footer>
     </div>
+    <script>
+        document.getElementById('themeToggle').addEventListener('click', function() {
+            const html = document.documentElement;
+            if (html.getAttribute('data-bs-theme') === 'light') {
+                html.setAttribute('data-bs-theme', 'dark');
+            } else {
+                html.setAttribute('data-bs-theme', 'light');
+            }
+        });
+    </script>
 </body>
 
 </html>
