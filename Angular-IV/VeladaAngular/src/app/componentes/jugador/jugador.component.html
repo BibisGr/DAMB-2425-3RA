@@ -1,0 +1,49 @@
+<div class="container d-flex justify-content-between">
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{persona.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre: {{persona.nombre}}</h6>
+      <ul>
+        <li>País: {{persona.pais}}</li>
+        <li>Peso: {{persona.pesoenKG}} KG</li>
+        <li>Rival: {{persona.rival}}</li>
+        <li>{{esdebutante(persona)}}</li>
+        <li>Peleas Ganadas: {{persona.win}}</li>
+        <li>Peleas Perdidas: {{persona.lose}}</li>
+      </ul>
+      <p>esta es el jugador con Datos y variables</p>
+    </div>
+  </div>
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{jugador.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre: {{jugador.nombre}}</h6>
+      <ul>
+        <li>País: {{jugador.pais}}</li>
+        <li>Peso: {{jugador.pesoenKG}} KG</li>
+        <li>Rival: {{jugador.rival}}</li>
+        <li>{{esdebutante(jugador)}}</li>
+        <li>Peleas Ganadas: </li>
+        <li>Peleas Perdidas: </li>
+      </ul>
+      <p>esta es el jugador con con datos de interface</p>
+    </div>
+  </div>
+
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{participante.boxeador.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre</h6>
+      <ul>
+        <li>País: {{participante.boxeador.pais}}</li>
+        <li>Peso {{participante.boxeador.pesoenKG}} KG</li>
+        <li>Rival {{participante.boxeador.rival}}</li>
+        <li>{{esdebutante(participante.boxeador)}}</li>
+        <li>Peleas Ganadas: {{participante.boxeador.win}}</li>
+        <li>Peleas Perdidas: {{participante.boxeador.lose}}</li>
+      </ul>
+      <p>esta es el jugador con clase e interface</p>
+    </div>
+  </div>
+
+</div>
