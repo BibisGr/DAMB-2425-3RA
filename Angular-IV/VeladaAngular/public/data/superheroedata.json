@@ -1,0 +1,33 @@
+{
+  "NombreSquad": "Los programeros",
+  "baseSecreta}: 'Progresa A9',
+  "city": 'Valencia',
+  "activeGroup": true,
+  "miembros": [
+    {
+      alias: 'MegaAmin',
+      identidadSecreta: 'Amin',
+      active: true,
+      superpoderes: [
+        'ControlMental','Gravitación','Supervelocidad'
+      ]
+    },
+    {
+      alias: 'SuperTony',
+      identidadSecreta: 'Tony',
+      active: true,
+      superpoderes: [
+        'Respiración de fuego','levitación','Ultrasonido'
+      ]
+    },
+    {
+      alias: 'Blancy',
+      identidadSecreta: 'Ieva',
+      active: true,
+      superpoderes: [
+        'Inmortalidad','SuperInteligencia','Superfuerza'
+      ]
+    }
+  ]
+
+}
